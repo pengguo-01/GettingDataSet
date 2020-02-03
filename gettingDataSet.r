@@ -100,3 +100,6 @@ install.packages("knitr")
 
 library(knitr)
 knit2html("codebook.Rmd");
+install.packages("dataMaid")
+library(dataMaid)
+makeCodebook(Data)
