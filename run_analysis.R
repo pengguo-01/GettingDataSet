@@ -1,5 +1,5 @@
 
-setwd("C://Users//pg000//Desktop")
+
 if(!file.exists(".\\Download")){dir.create(".\\Download")}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = ".\\Download\\dataset.zip")
